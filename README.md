@@ -57,14 +57,13 @@ Follow these steps to prepare the script:
 
    ```
    Sephiroth
-   Cloud (7-003R)
+   Cloud
    Aerith
-   Zack // Zack (18-058L)
+   Zack
    Bahamut ZERO
    ```
 
    - Lines containing "Plains", "Mountain", "Island", "Forest", or "Wastes" will be skipped, as these are typically basic lands.
-   - For double-faced cards, use `//` to separate names (e.g., `Zack // Zack (18-058L)`). The script searches each part separately.
 
 ## Usage
 
