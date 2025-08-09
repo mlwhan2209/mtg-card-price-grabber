@@ -33,7 +33,7 @@ def get_lowest_price(card_name):
         if not price_match:
             print(f"Price not found for '{card_name}'")
             return None, None
-        price = "$" + price_match.group(1)
+        price = price_match.group(1)
 
         # Regex for first product URL (product link on search page)
         link_pattern = r'<a[^>]+href="([^"]+)"[^>]*class="[^"]*search-result__product[^"]*"'
