@@ -5,7 +5,6 @@ This Python script automates the process of fetching the lowest available prices
 ## Features
 
 - **Automated Price Retrieval**: Automatically searches TCGPlayer for card prices.
-- **Product URL Linking**: Captures the direct product URL for each card.
 - **Batch Processing**: Reads multiple card names from a text file.
 - **CSV Output**: Saves all retrieved data into a structured CSV file for easy analysis.
 - **Headless Browsing**: Uses Firefox in headless mode, meaning no browser window will pop up during execution.
