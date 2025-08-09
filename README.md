@@ -9,7 +9,6 @@ This Python script automates the process of fetching the lowest available prices
 - **Batch Processing**: Reads multiple card names from a text file.
 - **CSV Output**: Saves all retrieved data into a structured CSV file for easy analysis.
 - **Headless Browsing**: Uses Firefox in headless mode, meaning no browser window will pop up during execution.
-- **Handles Double-Faced Cards**: Supports card names separated by `//` (e.g., `Card Front // Card Back`).
 
 ## Prerequisites
 
