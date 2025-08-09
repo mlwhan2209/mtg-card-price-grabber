@@ -24,20 +24,13 @@ Follow these steps to prepare the script:
 
 1. **Install Python Dependencies**
 
-   Install the `selenium` library using pip:
+   Install requirements using pip and requirements.txt:
 
    ```bash
-   pip install selenium
+   pip install -r requirements.txt
    ```
-
-2. **Download geckodriver**
-
-   - Visit the [geckodriver releases page](https://github.com/mozilla/geckodriver/releases).
-   - Download the appropriate version for your operating system (e.g., `geckodriver-vX.Y.Z-linux64.tar.gz` for Linux, `geckodriver-vX.Y.Z-macos.tar.gz` for macOS, or `geckodriver-vX.Y.Z-win64.zip` for Windows).
-   - Extract the archive to obtain the `geckodriver` executable (or `geckodriver.exe` on Windows).
-   - Note the full path to this executable.
-
-3. **Configure GECKODRIVER_PATH in the Script**
+   
+2. **Configure GECKODRIVER_PATH in the Script**
 
    Open the `price_scraper.py` file and locate the line:
 
@@ -50,7 +43,7 @@ Follow these steps to prepare the script:
    - **macOS/Linux**: `GECKODRIVER_PATH = "/usr/local/bin/geckodriver"` or `GECKODRIVER_PATH = "/Users/YourUsername/Downloads/geckodriver"`
    - **Windows**: `GECKODRIVER_PATH = "C:\\path\\to\\geckodriver.exe"` (use double backslashes or a raw string `r"C:\path\to\geckodriver.exe"`)
 
-4. **Create cards.txt**
+3. **Create cards.txt**
 
    In the same directory as your Python script, create a file named `cards.txt`. Each line should contain the exact name of a Final Fantasy TCG card to search for. Example:
 
@@ -68,7 +61,7 @@ Follow these steps to prepare the script:
 
 Run the script from your terminal:
 
-```bash
+```
 python price_scraper.py
 ```
 
